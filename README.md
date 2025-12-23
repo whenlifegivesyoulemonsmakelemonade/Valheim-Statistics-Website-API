@@ -133,7 +133,3 @@ These features may be added later via custom Valheim mods:
 This project is actively evolving and subject to major changes.
 
 ---
-
-## 📜 License
-
-*(Add your license here)*
