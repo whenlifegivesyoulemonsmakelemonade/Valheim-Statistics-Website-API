@@ -263,7 +263,7 @@ def get_player_stats(steamID):
 stop_event = Event()
 
 def parse_loop():
-    while not stop_event.is_set():      # Parsing and initializing Players off of it
+    while not stop_event.is_set():      # Parsing and initializing Players off of it # Still have to do
         j = journal.Reader()
         j.this_boot()
         j.add_match(_SYSTEMD_UNIT="valheim-server.service")
